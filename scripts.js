@@ -1,3 +1,12 @@
+import {
+  adbeDash,
+  jsonapi,
+} from './client.js';
+
+import auth from './auth.js';
+
+jsonapi.auth = auth;
+
 function createListItem(text) {
     const listItem = document.createElement('li');
     listItem.textContent = text;
