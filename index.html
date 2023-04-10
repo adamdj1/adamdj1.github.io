@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Webpage Title</title>
+  <!-- Add your CSS and JS files here, for example:
+
+  -->
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+  <script type="module" src="auth.js"></script>
+  <script type="module" src="client.js"></script>
+</head>
+<body>
+
+  <button id="addItemBtn">Add Item to List</button>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Add Item to List</h2>
+    <form id="addItemForm">
+      <label for="listSelection">Choose a list:</label>
+      <select id="listSelection" name="listSelection">
+        <option value="0">List 1</option>
+        <option value="1">List 2</option>
+        <option value="2">List 3</option>
+        <option value="3">List 4</option>
+      </select>
+      <label for="itemText">Item:</label>
+      <input type="text" id="itemText" name="itemText" required>
+      <button type="submit">Add Item</button>
+    </form>
+  </div>
+</div>
+
+
+  <div class="list-container">
+  <div class="list">
+    <h2>List 1 Title</h2>
+    <ul>
+      <li>Item 1<span class="delete-btn"> x</span></li>
+      <li>Item 2<span class="delete-btn"> x</span></li>
+      <li>Item 3<span class="delete-btn"> x</span></li>
+      
+    </ul>
+  </div>
+  <div class="list">
+    <h2>List 2 Title</h2>
+    <ul>
+      <li>Item 1<span class="delete-btn"> x</span></li>
+      <li>Item 2<span class="delete-btn"> x</span></li>
+      <li>Item 3<span class="delete-btn"> x</span></li>
+      
+    </ul>
+  </div>
+  <div class="list">
+    <h2>List 3 Title</h2>
+    <ul>
+      <li>Item 1<span class="delete-btn"> x</span></li>
+      <li>Item 2<span class="delete-btn"> x</span></li>
+      <li>Item 3<span class="delete-btn"> x</span></li>
+      
+    </ul>
+  </div>
+  <div class="list">
+    <h2>List 4 Title</h2>
+    <ul>
+      <li>Item 1<span class="delete-btn"> x</span></li>
+      <li>Item 2<span class="delete-btn"> x</span></li>
+      <li>Item 3<span class="delete-btn"> x</span></li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="table-container">
+  <div class="table-wrapper">
+    <h2>Table 1 Title</h2>
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+    </table>
+  </div>
+  <div class="table-wrapper">
+    <h2>Table 2 Title</h2>
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+    </table>
+  </div>
+  <div class="table-wrapper">
+    <h2>Table 3 Title</h2>
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+    </table>
+  </div>
+  <div class="table-wrapper">
+    <h2>Table 4 Title</h2>
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+</body>
+</html>
