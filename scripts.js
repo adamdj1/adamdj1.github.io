@@ -3,7 +3,9 @@ import {
   jsonapi,
 } from './client.js';
 
-import auth from './auth.js';
+import {
+  auth
+ } from './auth.js';
 
 jsonapi.auth = auth;
 
