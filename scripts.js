@@ -7,6 +7,10 @@ import auth from './auth.js';
 
 jsonapi.auth = auth;
 
+window.adbeDash = adbeDash;
+window.auth = auth;
+window.jsonapi = jsonapi;
+
 function createListItem(text) {
     const listItem = document.createElement('li');
     listItem.textContent = text;
