@@ -17,6 +17,12 @@
     color: black;
   }
 
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
   /*List styling*/
   .list {
     margin: 10px;
