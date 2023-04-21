@@ -14,8 +14,7 @@
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
-    padding: 30px 0;
+    color: black;
   }
 
   /* Container Styles */
@@ -46,7 +45,7 @@
 
   /* Table Styles */
   .table-wrapper{
-    margin: 10px 70px 70px;
+    margin: 10px 30px 30px;
     box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
   }
 
