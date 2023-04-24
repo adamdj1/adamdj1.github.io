@@ -9,6 +9,30 @@
     -webkit-font-smoothing: antialiased;
     background: rgb(251, 251, 251);
   }
+
+  .site-header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .logo {
+    width: 40px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .header-text {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+
   h2{
     text-align: center;
     font-size: 18px;
