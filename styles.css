@@ -160,6 +160,15 @@
     font: normal normal bold 14px/17px Adobe Clean;
   }
 
+  .fl-table thead tr:first-child {
+    border-top: 2px solid #EA3829;
+}
+
+.fl-table tbody tr {
+    border-top: 1px solid #6D6D6D;
+}
+
+
 
   .top-bar {
     background-color: #EB1016;
