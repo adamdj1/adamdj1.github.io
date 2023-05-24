@@ -161,7 +161,7 @@
   }
 
   .fl-table thead tr:first-child {
-    border-top: 2px solid #EA3829;
+    border-bottom: 2px solid #EA3829;
 }
 
 .fl-table tbody tr {
