@@ -115,7 +115,7 @@
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: red;
+    color: #EA3829;
     margin-left: 20px;
 }
 
@@ -126,7 +126,7 @@
     top: 0;
     bottom: 0;
     width: 5px; /* adjust the width of the grey bar as needed */
-    background-color: lightgray; /* adjust the color as needed */
+    background-color: #E6E6E6; /* adjust the color as needed */
   }
 
   .fl-table {
@@ -165,7 +165,7 @@
   }
 
   .top-bar {
-    background-color: red;
+    background-color: #EB1016;
     height: 20px;
     width: 100%;
     position: fixed;
