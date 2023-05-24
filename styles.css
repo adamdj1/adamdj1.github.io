@@ -125,7 +125,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    width: 5px; /* adjust the width of the grey bar as needed */
+    width: 10px; /* adjust the width of the grey bar as needed */
     background-color: #E6E6E6; /* adjust the color as needed */
   }
 
