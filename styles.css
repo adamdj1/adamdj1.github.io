@@ -152,12 +152,13 @@
     width: 100%;
     max-width: 100%;
     white-space: nowrap;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .fl-table td, .fl-table th {
     text-align: left;
     padding: 8px;
+    padding-left: 20px;
   }
 
   .fl-table td {
