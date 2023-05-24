@@ -149,6 +149,17 @@
     background: #F8F8F8;
   }
 
+  .top-bar {
+    background-color: red;
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  
+
   /* Responsive */
   @media (max-width: 767px) {
     .fl-table {
