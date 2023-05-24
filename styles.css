@@ -106,7 +106,10 @@
   .table-wrapper {
     margin: 10px 50px 30px;
     position: relative;
+    width: 70%; /* Or any other fixed value you want */
+    max-width: 800px; /* Limit maximum width to avoid overly wide tables on large screens */
   }
+  
 
   .table-wrapper:before {
     content: '';
