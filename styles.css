@@ -116,7 +116,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #EA3829;
-    margin-left: 20px;
+    margin-left: 27px;
 }
 
   .table-wrapper:before {
@@ -138,6 +138,7 @@
     width: 100%;
     max-width: 100%;
     white-space: nowrap;
+    margin-left: 20px;
   }
 
   .fl-table td, .fl-table th {
