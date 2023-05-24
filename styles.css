@@ -46,17 +46,16 @@
     letter-spacing: 0px;
     color: #D5D5D5;
     opacity: 1;
+    margin-bottom: 5px;
   }
 
   .subhead-container {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;  /* or 'flex-start' for left alignment, 'flex-end' for right */
+    justify-content: flex-start;  
 }
 
 .inline-image {
-  margin-right: 10px;  /* adjust as necessary */
-  background: #EA3829 0% 0% no-repeat padding-box;
+  margin-right: 10px;  
   opacity: 1;
   width: 49px;
   height: 47px;
@@ -136,7 +135,7 @@
     position: relative;
     width: 70%; /* Or any other fixed value you want */
     max-width: 250px; /* Limit maximum width to avoid overly wide tables on large screens */
-    margin-right: 5%;
+    margin-right: 6%;
   }
   
   .table-wrapper h2{
