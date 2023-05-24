@@ -156,14 +156,6 @@
     background: none;
   }
 
-  .fl-table thead th:nth-child(odd) {
-    color: #ffffff;
-    background: none;
-  }
-
-  .fl-table tr:nth-child(even) {
-    background: #F8F8F8;
-  }
 
   .top-bar {
     background-color: #EB1016;
