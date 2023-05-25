@@ -13,8 +13,18 @@
   }
 
   a {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+
+  .top-bar {
+    background-color: #EB1016;
+    height: 2.5%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
   }
 
   .site-header {
@@ -61,19 +71,19 @@
   height: 47px;
 }
 
+h1 {
+  margin-top: -2rem;
+}
 
-
-  h2{
+h2{
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: black;
-  }
+}
 
-  h1 {
-    margin-top: -2rem;
-  }
+
 
 
 
@@ -89,13 +99,13 @@
   .table-wrapper {
     margin: 10px 50px 30px;
     position: relative;
-    width: 70%; /* Or any other fixed value you want */
-    max-width: 250px; /* Limit maximum width to avoid overly wide tables on large screens */
+    width: 70%; 
+    max-width: 250px; 
     margin-right: 6%;
   }
   
   .table-wrapper h2{
-    text-align: left; /* Updated this line */
+    text-align: left; 
     font: normal normal 300 30px/37px Adobe Clean;
     letter-spacing: 0px;
     color: #EA3829;
@@ -110,8 +120,8 @@
     left: 0;
     top: 0;
     bottom: 0;
-    width: 10px; /* adjust the width of the grey bar as needed */
-    background-color: #E6E6E6; /* adjust the color as needed */
+    width: 10px; 
+    background-color: #E6E6E6; 
   }
 
   .fl-table {
@@ -153,15 +163,7 @@
 
 
 
-  .top-bar {
-    background-color: #EB1016;
-    height: 2.5%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-  }
+
   
 
   /* Responsive 
