@@ -11,12 +11,13 @@
 
   .text-block {
     border: 1px solid black;
+    border-radius: 25px;
     padding: 15px;
     width: 250px; /* Adjust this width as needed */
     position: absolute;
-    top: 15%; /* You may need to adjust this percentage to position it opposite the site-header */
+    top: 10%; /* You may need to adjust this percentage to position it opposite the site-header */
     right: 5%; /* Adjust this to give it a margin from the right edge */
-    background-color: white; /* To ensure the text is readable against any background */
+    background-color: rgb(251, 251, 251); /* To ensure the text is readable against any background */
     z-index: 10; /* Ensuring it's on top */
 }
   
