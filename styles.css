@@ -4,9 +4,13 @@
   }
 
   #ttype {
-    font-family: circleFont;
-    color: gray;
-    font-size: medium;
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+
+    border: 2x solid #A6CDDD;
+    border-radius: 50%;
   }
 
   .text-block {
