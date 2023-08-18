@@ -6,11 +6,12 @@
   #ttype {
     font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
     color: white;
-    font-size: 16pt;
+    font-size: 12pt;
     font-weight: bold;
 
-    border: 2x solid #A6CDDD;
+    border: 2px solid #A6CDDD;
     border-radius: 50%;
+    background: #A6CDDD;
   }
 
   .text-block {
